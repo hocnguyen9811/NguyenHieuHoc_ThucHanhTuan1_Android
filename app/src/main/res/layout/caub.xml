@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgr1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Forget\n Password"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Provide your account's email for which you\n want to reset your password"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" tools:layout_editor_absoluteY="62dp" tools:layout_editor_absoluteX="153dp" android:id="@+id/imageView2" app:srcCompat="@drawable/ic_lock_152879_1"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="347dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="NEXT"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#FFC107"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="#DCE0E3"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="   Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" tools:layout_editor_absoluteY="483dp" tools:layout_editor_absoluteX="32dp" android:id="@+id/imageView3" app:srcCompat="@drawable/mail_2935365_1"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_mail_2935365_1"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

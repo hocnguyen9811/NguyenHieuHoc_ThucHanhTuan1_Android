@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgr4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or login with"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:background="#ECEBEB"
+        android:fontFamily="@font/roboto_medium"
+        android:text="     Password"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="360dp"
+        android:layout_height="64dp"
+        android:background="#CC0A0A"
+        android:fontFamily="@font/roboto_medium"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:background="#ECEBEB"
+        android:fontFamily="@font/roboto_medium"
+        android:text="     Email"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/ic_eye_1"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you agree to terms and conditions"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For got your password ?"
+        android:textColor="#0329FD"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:background="#3F51B5"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:background="#99FFCC"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:background="#03A9F4"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_icogoogle_1"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_icofacebook_1924510_1"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_icozalo"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
